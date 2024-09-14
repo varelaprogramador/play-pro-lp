@@ -65,21 +65,26 @@ export default function Home() {
             </label>
             <input placeholder="#HEX" type="text">
             </input>
+            <div className="h-2 w-full bg-white rounded-md border border-black"></div>
             <label>
               Cor do Texto:
             </label>
             <input placeholder="#HEX" type="text"></input>
+            <div className="h-2 w-full bg-white rounded-md border border-black"></div>
             <p>Estilo do botão</p>
                 <label>
               Cor de fundo:
             </label>
             <input placeholder="#HEX" type="text">
             </input>
+            <div className="h-2 w-full bg-white rounded-md border border-black"></div>
             <label>
               Cor do Texto:
             </label>
             <input placeholder="#HEX" type="text"></input>
+            <div className="h-2 w-full bg-white rounded-md border border-black"></div>
                 </div>
+                
                 
                 :""}
             
