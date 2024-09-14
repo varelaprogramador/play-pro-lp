@@ -6,22 +6,95 @@
   --background: #ffffff;
   --foreground: #171717;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+*{
+  margin: 0;
+  font-family: 'Inter',sans-serif;
+  transition: background-color 0.5s linear,color 0.3s linear ;
+}
+body{
+  
+}
+.box-toggle{
+  width: 100px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  color: white;
+}
+.box-toggle button {
+  padding: 5px;
+}
+
+.light-theme .box-toggle {
+  background-color: black;
+  color: white;
+}
+
+.light-theme .box-toggle #light-mode{
+  background-color: red;
+  border-radius: 5px;
+}
+
+.dark-theme .box-toggle #dark-mode{
+  background-color: red;
+  border-radius: 5px;
+ 
+}
+.light-theme{
+  background-color: white;
+}
+.dark-theme{
+  background-color: #090404;
+}
+.logo{
+  font-weight: 600;
+  font-size: 40px;
+}
+.enfase{
+  color: red;
+}
+.dark-theme .logo{
+  color: white;
+}
+/* box-criar site */
+#box-form{
+  width: auto;
+  border: 1px solid #B7B7B7;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+.create-lp{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  width: 350px;
+}
+.create-lp input{
+  padding: 8px;
+  border: 1px solid #B7B7B7;
+  background-color: transparent;
+}
+.dark-theme .create-lp {
+  color: white;
+  
+} 
+.btn-criar{
+  width: 350px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  background-color: #941212;
+  color: white;
+  border-radius: 5px;
 }
