@@ -18,7 +18,7 @@ export default function Pagina() {
   const subtitulo = searchParams.get('subtitulo') || '';
   const linkVideo = searchParams.get('linkVideo') || '';
   const linkBotao = searchParams.get('linkBotao') || '';
-  const controllerVideo=searchParams.get("controllerVideo"||'');
+  const controllerVideo=searchParams.get("controllerVideo")||'';
   const pageFundo = searchParams.get('pageFundo') || '';
   const pageCor = searchParams.get('pageCor') || '';
   const btnFundo = searchParams.get('btnFundo') || '';
