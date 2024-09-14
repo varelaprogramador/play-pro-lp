@@ -17,6 +17,7 @@
   transition: background-color 0.5s linear,color 0.3s linear ;
 }
 body{
+  scroll-behavior: smooth;
   
 }
 .box-toggle{
@@ -78,7 +79,7 @@ body{
   padding: 20px;
   width: 350px;
 }
-.create-lp input{
+.create-lp input,select{
   padding: 8px;
   border: 1px solid #B7B7B7;
   border-radius: 5px;
@@ -98,4 +99,10 @@ body{
   background-color: #941212;
   color: white;
   border-radius: 5px;
+}
+.light-theme .prev-color{
+  border: 1px solid black;
+}
+.dark-theme .prev-color{
+  border: 1px solid rgb(255, 255, 255);
 }
